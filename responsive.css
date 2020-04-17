@@ -1,0 +1,489 @@
+﻿/*Extra Large Layout: 1200px.*/
+@media (min-width: 1200px) {
+    .screen {
+        max-width: 90%;
+    }
+}
+
+
+/*Large Layout: 992px.*/
+@media (min-width: 992px) and (max-width: 1199px) {
+    .screen {
+        max-width: 92%;
+    }
+
+    /*Header*/
+    #header .header_content p {
+        max-width: 70%;
+    }
+
+    /*Get Toucched*/
+    #get_touched p {
+        max-width: 70%;
+    }
+
+    /*Portfolio*/
+    #portfolio .portfolio_content .single_item {
+        width: 31%;
+        margin-right: 3%;
+    }
+
+    #portfolio .portfolio_content .single_item.br1_margri {
+        margin-right: 3%;
+    }
+
+    #portfolio .portfolio_content .single_item.br1_no_margri {
+        margin-right: 0;
+    }
+}
+
+
+/*Tablet Layout: 768px.*/
+@media (min-width: 768px) and (max-width: 992px) {
+    .screen {
+        max-width: 93%;
+    }
+
+    /*Header*/
+    #header .header_content p {
+        max-width: 80%;
+    }
+
+    /*Get Toucched*/
+    #get_touched p {
+        max-width: 80%;
+    }
+
+    /*About Us*/
+    #about_us h2 {
+        float: none;
+        width: 100%;
+    }
+
+    #about_us p {
+        float: none;
+        width: 100%;
+    }
+
+    /*Portfolio*/
+    #portfolio .portfolio_top h2 {
+        float: none;
+    }
+
+    #portfolio .portfolio_top .portfolio_filter {
+        float: none;
+    }
+
+    #portfolio .portfolio_top .portfolio_filter ul {
+        margin: 0 auto;
+        display: table;
+    }
+
+    #portfolio .portfolio_content .single_item {
+        width: 31%;
+        margin-right: 3%;
+    }
+
+    #portfolio .portfolio_content .single_item.br1_margri {
+        margin-right: 3%;
+    }
+
+    #portfolio .portfolio_content .single_item.br1_no_margri {
+        margin-right: 0;
+    }
+
+    /*Customer Says*/
+    #customer_says h3 {
+        margin-left: 12%;
+    }
+
+    #customer_says .customer img {
+        left: 15%;
+    }
+
+    #customer_says .customer h4,
+    #customer_says .customer p {
+        margin: 0 15% 0 35%;
+    }
+
+    /*Our Team*/
+    #our_team .team_members .member {
+        width: 47%;
+        margin-right: 6%;
+    }
+
+    #our_team .team_members .member.br_no_margri {
+        margin-right: 0;
+    }
+
+    /*Services*/
+    #services .service_items .col_6 {
+        width: 45.5%;
+        margin-right: 5%;
+        padding: 0 1%;
+    }
+
+    #services .service_items .col_6.br_margri {
+        margin-right: 5%;
+    }
+
+    #services .service_items .col_6.br_no_margri {
+        margin-right: 0;
+    }
+
+    /*Contact Us*/
+    #contact_us .address {
+        width: 100%;
+        float: none;
+    }
+
+    #contact_us .contact_form {
+        width: 100%;
+        float: none;
+    }
+}
+
+
+/*Wide Mobile Layout: ≥576px.*/
+@media (min-width: 576px) and (max-width: 767px) {
+    .screen {
+        max-width: 95%;
+    }
+
+    /*Header*/
+    #header .header_content p {
+        max-width: 90%;
+    }
+
+    /*Get Toucched*/
+    #get_touched p {
+        max-width: 90%;
+    }
+
+    /*About Us*/
+    #about_us h2 {
+        float: none;
+        width: 100%;
+    }
+
+    #about_us p {
+        float: none;
+        width: 100%;
+    }
+
+    /*Portfolio*/
+    #portfolio .portfolio_top h2 {
+        float: none;
+    }
+
+    #portfolio .portfolio_top .portfolio_filter {
+        float: none;
+    }
+
+    #portfolio .portfolio_top .portfolio_filter ul {
+        margin: 0 auto;
+        display: table;
+    }
+
+    #portfolio .portfolio_content .single_item {
+        width: 47%;
+        margin-right: 6%;
+    }
+
+    #portfolio .portfolio_content .single_item.br2_margri {
+        margin-right: 6%;
+    }
+
+    #portfolio .portfolio_content .single_item.br2_no_margri {
+        margin-right: 0;
+    }
+
+    /*Customer Says*/
+    #customer_says h3 {
+        margin-left: 10%;
+    }
+
+    #customer_says .customer img {
+        left: 5%;
+    }
+
+    #customer_says .customer h4,
+    #customer_says .customer p {
+        margin: 0 15% 0 20%;
+    }
+
+    /*Our Team*/
+    #our_team .team_members .member {
+        width: 47%;
+        margin-right: 6%;
+    }
+
+    #our_team .team_members .member.br_no_margri {
+        margin-right: 0;
+    }
+
+    /*Services*/
+    #services .service_items .col_6 {
+        width: 45.5%;
+        margin-right: 5%;
+        padding: 0 1%;
+    }
+
+    #services .service_items .col_6.br_margri {
+        margin-right: 5%;
+    }
+
+    #services .service_items .col_6.br_no_margri {
+        margin-right: 0;
+    }
+
+    /*Contact Us*/
+    #contact_us .address {
+        width: 100%;
+        float: none;
+    }
+
+    #contact_us .contact_form {
+        width: 100%;
+        float: none;
+    }
+}
+
+
+/*Device-pixel-ratio of 2+*/
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+    .screen {
+        max-width: 95%;
+    }
+
+    /*Header*/
+    #header .header_content p {
+        max-width: 90%;
+    }
+
+    /*Get Toucched*/
+    #get_touched p {
+        max-width: 90%;
+    }
+
+    /*About Us*/
+    #about_us h2 {
+        float: none;
+        width: 100%;
+    }
+
+    #about_us p {
+        float: none;
+        width: 100%;
+    }
+
+    /*Portfolio*/
+    #portfolio .portfolio_top h2 {
+        float: none;
+    }
+
+    #portfolio .portfolio_top .portfolio_filter {
+        float: none;
+    }
+
+    #portfolio .portfolio_top .portfolio_filter ul {
+        margin: 0 auto;
+        display: table;
+    }
+
+    #portfolio .portfolio_content .single_item {
+        width: 47%;
+        margin-right: 6%;
+    }
+
+    #portfolio .portfolio_content .single_item.br2_margri {
+        margin-right: 6%;
+    }
+
+    #portfolio .portfolio_content .single_item.br2_no_margri {
+        margin-right: 0;
+    }
+
+    /*Customer Says*/
+    #customer_says h3 {
+        margin-left: 10%;
+    }
+
+    #customer_says .customer img {
+        left: 5%;
+    }
+
+    #customer_says .customer h4,
+    #customer_says .customer p {
+        margin: 0 15% 0 20%;
+    }
+
+    /*Our Team*/
+    #our_team .team_members .member {
+        width: 47%;
+        margin-right: 6%;
+    }
+
+    #our_team .team_members .member.br_no_margri {
+        margin-right: 0;
+    }
+
+    /*Services*/
+    #services .service_items .col_6 {
+        width: 45.5%;
+        margin-right: 5%;
+        padding: 0 1%;
+    }
+
+    #services .service_items .col_6.br_margri {
+        margin-right: 5%;
+    }
+
+    #services .service_items .col_6.br_no_margri {
+        margin-right: 0;
+    }
+
+    /*Contact Us*/
+    #contact_us .address {
+        width: 100%;
+        float: none;
+    }
+
+    #contact_us .contact_form {
+        width: 100%;
+        float: none;
+    }
+}
+
+
+/*Small Mobile Layout: <576px.*/
+@media only screen and (max-width: 576px) {
+    .screen {
+        max-width: 97%;
+    }
+
+    /*Header*/
+    #header .header_content p {
+        max-width: 100%;
+    }
+
+    /*Get Toucched*/
+    #get_touched p {
+        max-width: 100%;
+    }
+
+    /*About Us*/
+    #about_us h2 {
+        float: none;
+        width: 100%;
+    }
+
+    #about_us p {
+        float: none;
+        width: 100%;
+    }
+
+    /*Portfolio*/
+    #portfolio .portfolio_top h2 {
+        float: none;
+    }
+
+    #portfolio .portfolio_top .portfolio_filter {
+        float: none;
+    }
+
+    #portfolio .portfolio_top .portfolio_filter ul {
+        margin: 0 auto;
+        display: table;
+    }
+
+    #portfolio .portfolio_top .portfolio_filter ul li {
+        float: none;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    #portfolio .portfolio_content .single_item {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    /*Customer Says*/
+    #customer_says h3 {
+        margin-left: 5%;
+        margin-bottom: 150px;
+    }
+
+    #customer_says .customer img {
+        left: 0;
+        top: -85%;
+    }
+
+    #customer_says .customer h4,
+    #customer_says .customer p {
+        margin: 0;
+    }
+
+    /*Our Team*/
+    #our_team .team_members .member {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    /*Services*/
+    #services .service_items .col_6 {
+        width: 98%;
+        margin-right: 0;
+        padding: 0 1%;
+    }
+
+    /*Contact Us*/
+    #contact_us .address {
+        width: 100%;
+        float: none;
+    }
+
+    #contact_us .contact_form {
+        width: 100%;
+        float: none;
+    }
+}
+
+/* Start Responsive Menu */
+@media only screen and (max-width: 768px) {
+    .header_bg {
+        height: 100%;
+    }
+
+    .toggle {
+        display: block;
+    }
+
+    .toggle .toggleSpan2 {
+        display: none;
+    }
+
+    #header .header_top #menu {
+        float: none;
+        margin: 0;
+    }
+
+    #header .header_top #menu ul {
+        width: 100%;
+        display: none;
+    }
+
+    #header .header_top #menu ul li {
+        display: block;
+        float: none;
+        text-align: center;
+        padding: 15px 0;
+    }
+
+    #header .header_top #menu ul li a {
+        display: inline-block;
+    }
+}
+
+/*Finish Responsive Menu*/
